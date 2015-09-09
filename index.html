@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cool Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="container">
+    <h1>Fill Out Our Form?</h1>
+    <form action="http://requestb.in/zhj478zh" method="POST">
+      <p><label> Name: <input type="text" name="name" placeholder="Jane Doe" /></label></p>
+      <p><label> Email: <input type="text" name="email" placeholder="email@example.com"/></label></p>
+      <p><label> Password: <input type="password" name="password" placeholder="use a combination of upper & lower case and/or numbers"/></label></p>
+      <p><label> Confirm Password: <input type="password" name="password_confirm" placeholder="please retype your chosen password"/></label></p>
+
+      <p>
+        <label>
+          Introduction:
+          <textarea name="introduction" placeholder="Tell me about it!"></textarea>
+        </label>
+      </p>
+
+      <label> Favorite Animal:
+        <select name="favorite_animal">
+          <option value="" disabled>Please Select</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="frog">Frog</option>
+          <option value="sloth">Sloth</option>
+          <option value="llama">Llama</option>
+        </select>
+      </label>
+
+      <h2>Favorite Color?</h2>
+      <label class="radio-label-1"> Turquoise <input type="radio" name="favorite_color" value="a"></label>
+      <label class="radio-label-2"> Emerald <input type="radio" name="favorite_color" value="b"></label>
+      <label class="radio-label-3"> Peter River <input type="radio" name="favorite_color" value="y"></label>
+      <label class="radio-label-4"> Amethyst <input type="radio" name="favorite_color" value="g"></label>
+      <label class="radio-label-5"> Wet Asphalt <input type="radio" name="favorite_color" value="o"></label>
+
+      <h2>Favorite Foods? (check all that apply)</h2>
+      <label class="checkbox-label"> Pizza <input type="checkbox" name="pizza" value="1" /></label>
+      <label class="checkbox-label"> Bagels <input type="checkbox" name="bagels" value="1" /></label>
+      <label class="checkbox-label"> Salad <input type="checkbox" name="salad" value="1" /></label>
+      <label class="checkbox-label"> Cookies <input type="checkbox" name="cookies" value="1" /></label>
+      <label class="checkbox-label"> Tofu <input type="checkbox" name="tofu" value="1" /></label>
+
+      <p>
+        <input type="submit" name="submit" value="Submit Form!"/>
+        <input type="reset" name="reset" value="Reset Form!"/>
+
+      </p>
+
+    </form>
+  </body>
+</html>
